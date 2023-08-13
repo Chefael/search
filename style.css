@@ -23,16 +23,6 @@ header nav {
 
 }
 
-header div h1 {
-    align-items: ;
-}
-
-header h1 {
-    display: flex;
-    flex-direction: column;
-    text-align: left;
-    margin-right: 950px;
-}
 
 header a {
     padding: 5px;
@@ -78,7 +68,7 @@ form {
     margin-bottom: 25px;
     border-radius: 20px;
     padding: 10px 25px;
-    padding-right: 300px;
+    width: 450px;
     background-color: #303134;
     border-color: #303134;
     color: #303134;

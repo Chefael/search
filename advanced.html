@@ -4,32 +4,62 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Search</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="advanced.css">
 </head>
 <body>
 <header>
-    <div class="links">
+    <div class="hero">
+        <h1>Advanced Search</h1>
+    </div>
+    
+    <div class="links" id="advanced-links">
         <nav>
-            <h1>Advanced Search</h1>
        <a href="index.html">Go Back</a> 
        <a href="image.html">Image search</a>
         </nav>
     </div>
 </header>
 
-    <div class="formi">
-        <form action="https://google.com/advanced_search">
-            Mostrar paginas que contengan...
-            todas estas palabras.
-            <input type="text" name="as_q">
-            Esta palabra o frase exacta.
-            <input type="text" name="as_epq">
-            cualquiera de estas palabras.
-            <input type="text" name="as_oq">
-            ninguna de estas palabras
-            <input type="text" name="as_eq">
+<div class="line"></div>
 
-            <input type="submit" value="Google Search">
+    <div class="formi"><p id="first">Find pages with...</p>
+        <form action="https://google.com/advanced_search">
+            <div class="row">
+                <div class="message">
+                    <p>all these words:</p>
+                </div>
+                <div class="input">
+                    <input class="query" type="text" name="as_q">
+                </div>
+            </div>
+            <div class="row">
+                <div class="message">
+                    <p>this exact word or phrase:</p>
+                </div>
+                <div class="input">
+                    <input class="query" type="text" name="as_epq">
+                </div>
+            </div>
+            <div class="row">
+                <div class="message">
+                    <p>Any of these words:</p>
+                </div>
+                <div class="input">
+                    <input class="query" type="text" name="as_oq">
+                </div>
+            </div>
+            <div class="row">
+                <div class="message">
+                    <p>None of these words:</p>
+                </div>
+                <div class="input">
+                    <input class="query" type="text" name="as_eq">
+                </div>
+            </div>
+            
+            <div class="bton">
+                <input id="ibuton" type="submit" value="Advanced search">
+            </div>
         </form>
         </div>
 </body>
