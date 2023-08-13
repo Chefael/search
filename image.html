@@ -4,20 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Search</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="links">
-        <a href="index.html">Back</a>
-        <a href="advance.html"> Advance search</a>
+    <header>
+        <div class="links">
+            <nav>
+            <a href="index.html">Go Back</a>
+            <a href="advanced.html"> Google Advance search</a>
+        </nav>
+        </div>
+        </header>
+
+    <div id="hero">
+        <h1>Googlealo</h1>
+        <h6>Images</h6>
     </div>
 
-    <div class="formi">
         <form action="https://images.google.com/search">
+            <div class="input">
             <input type="hidden" name="tbm" value="isch">
-            <input type="text" name="q">
-            <input type="submit" value="Google Search">
-        </form>
+            <input type="text" name="q" placeholder="Insert your search query">
+            </div>
+            <div class="buton">
+            <button type="submit">Google search </button>
         </div>
+        </form>
+    
     
 </body>
 </html>
