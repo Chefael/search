@@ -1,30 +1,43 @@
 body, input, button {
     font-size: 14px;
     font-family: arial,sans-serif;
-    color: #bdc1c6;
+    color: #c8c3bc;
 }
 
 body {
-    background-color: #202124;;
+    background-color: rgb(30, 32, 33);
 }
 
-header .hero  {
+.up-row {
     display: flex;
-    width: 400px;
-    
+    flex-direction: row;
+    align-items: center;
 }
 
-header h1 {
+.hero {
+    width: 300px;
+}
+
+.hero p {
     display: flex;
     flex-direction: column;
     text-align: left;
-    margin-right: 950px;
     color: rgb(222, 69, 60);
     font-weight: normal;
+    font-size: 20px;
+    padding-left: 25px;
 }
 
-#advanced-links {
-    margin-bottom: 0px;
+.advanced-links {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    text-align: right;
+}
+
+.advanced-links a {
+    padding-right: 15px;
+    color: white;
 }
 
 .line {
@@ -46,19 +59,18 @@ p {
 }
 
 .formi {
-    padding-left: 15px;
+    padding-left: 25px;
 }
 
 .message {
-    width: 300px;
+    width: 200px;
 }
 
-
-
 .query {
-    width: 385px;
+    width: 513px;
     background-color: #3b3b3b;
-    padding: 3px 8px;
+    padding: 5px 8px;
+    border: solid;
     border-color: rgb(66, 71, 74) rgb(59, 64, 66) rgb(59, 64, 66);
 }
 
@@ -67,15 +79,8 @@ p {
     flex-direction: column;
     align-items: center;
     margin-top: 15px;
-    margin-right: 88px;
+    margin-right: auto;
 }
-
-
-
-
-
-
-
 
 
 #ibuton {

@@ -71,14 +71,13 @@ form {
     width: 450px;
     background-color: #303134;
     border-color: #303134;
-    color: #303134;
     align-self: center;
-    border: solid;
+    border: solid #303134;
     border-width: 2px;
 }
 
 .input input:hover {
-    border-color: #bdc1c6;
+    border-color: #bdc1c9;
 }
 
 .buton button {
