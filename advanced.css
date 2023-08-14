@@ -31,7 +31,7 @@ body {
 .advanced-links {
     display: flex;
     flex-direction: column;
-    margin-left: auto;
+    margin-left: 800px;
     text-align: right;
 }
 
@@ -67,7 +67,7 @@ p {
 }
 
 .query {
-    width: 513px;
+    width: 500px;
     background-color: #3b3b3b;
     padding: 5px 8px;
     border: solid;
@@ -79,7 +79,7 @@ p {
     flex-direction: column;
     align-items: center;
     margin-top: 15px;
-    margin-right: auto;
+    margin-right: 25px;
 }
 
 
