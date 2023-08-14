@@ -48,9 +48,24 @@ p {
     font-size: 13px;
 }
 
-#first {
+.text {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.first p {
     font-size: 16px;
 }
+
+.last {
+    font-size: 13px;
+    font-weight: bold;
+    width: 770px;
+    margin-left: 13px;
+    text-align: right;
+}
+
 
 .row {
     display: flex;
@@ -72,6 +87,10 @@ p {
     padding: 5px 8px;
     border: solid;
     border-color: rgb(66, 71, 74) rgb(59, 64, 66) rgb(59, 64, 66);
+}
+
+.r-message {
+    margin-left: 15px;
 }
 
 .bton {
